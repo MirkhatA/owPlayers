@@ -30,4 +30,16 @@ public abstract class Hero {
     }
 
     public abstract void display();
+
+    public void setFlyBehavior(FlyBehavior flyBehavior) {
+        this.flyBehavior = flyBehavior;
+    }
+
+    public void setRunBehavior(RunBehavior runBehavior) {
+        this.runBehavior = runBehavior;
+    }
+
+    public void setAttackBehavior(AttackBehavior attackBehavior) {
+        this.attackBehavior = attackBehavior;
+    }
 }
